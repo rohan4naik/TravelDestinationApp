@@ -18,5 +18,7 @@ class TopUrbanCollectionViewCell: UICollectionViewCell {
 
     func configureCell(destination: Destination){
         urbanImageView.image = UIImage(named: destination.imagePath)
+        
+        urbanImageView.layer.cornerRadius = 8.0
     }
 }

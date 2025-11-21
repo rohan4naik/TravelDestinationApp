@@ -17,5 +17,7 @@ class TopMountainCollectionViewCell: UICollectionViewCell {
     }
     func configureCell(destination: Destination){
         mountainImageView.image = UIImage(named: destination.imagePath)
+        
+        mountainImageView.layer.cornerRadius = 8.0
     }
 }

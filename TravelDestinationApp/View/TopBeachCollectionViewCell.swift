@@ -17,5 +17,7 @@ class TopBeachCollectionViewCell: UICollectionViewCell {
     }
     func configureCell(destination: Destination){
         beachImageView.image = UIImage(named: destination.imagePath)
+        
+        beachImageView.layer.cornerRadius = 8.0
     }
 }
